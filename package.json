@@ -2,9 +2,15 @@
   "name": "@somosphi/uuid",
   "version": "0.1.0",
   "description": "Utility functions for dealing with UUIDs",
-  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "uuid"
@@ -12,10 +18,10 @@
   "author": "Phi",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^13.13.2",
     "uuid": "^7.0.3"
   },
   "devDependencies": {
-    "@types/node": "^13.13.2",
     "@types/uuid": "^7.0.3",
     "typescript": "^3.8.3"
   }
