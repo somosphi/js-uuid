@@ -1,0 +1,22 @@
+{
+  "name": "@somosphi/uuid",
+  "version": "0.1.0",
+  "description": "Utility functions for dealing with UUIDs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uuid"
+  ],
+  "author": "Phi",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/uuid": "^7.0.3",
+    "typescript": "^3.8.3"
+  }
+}
