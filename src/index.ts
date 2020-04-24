@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 
 /**
- * Generates a random UUID.
+ * Generates a random v4 UUID.
  * @returns the UUID in string format
  */
 export const generate: (() => string) = uuidv4;

@@ -22,7 +22,7 @@ Using Typescript:
 import * as Uuid from '@somosphi/uuid';
 ```
 
-### Generating a random UUID
+### Generating a random UUID (version 4)
 
 ```js
 const id = Uuid.generate();
