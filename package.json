@@ -2,6 +2,8 @@
   "name": "@somosphi/uuid",
   "version": "0.1.0",
   "description": "Utility functions for dealing with UUIDs",
+  "author": "Phi Serviços de Pagamento S.A.",
+  "license": "MIT",
   "files": [
     "dist"
   ],
@@ -9,14 +11,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [
-    "uuid"
-  ],
-  "author": "Phi",
-  "license": "MIT",
   "dependencies": {
     "@types/node": "^13.13.2",
     "uuid": "^7.0.3"
@@ -27,5 +24,13 @@
     "jest": "^25.4.0",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "keywords": [
+    "guid",
+    "uuid",
+    "string",
+    "buffer",
+    "binary",
+    "util"
+  ]
 }
