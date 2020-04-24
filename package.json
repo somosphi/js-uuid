@@ -32,5 +32,13 @@
     "buffer",
     "binary",
     "util"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somosphi/js-uuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/somosphi/js-uuid/issues"
+  },
+  "homepage": "https://github.com/somosphi/js-uuid#readme"
 }
