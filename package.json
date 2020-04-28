@@ -1,6 +1,6 @@
 {
   "name": "@somosphi/uuid",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Utility functions for dealing with UUIDs",
   "author": "Phi Serviços de Pagamento S.A.",
   "license": "MIT",
