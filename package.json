@@ -17,7 +17,7 @@
   "dependencies": {
     "@types/node": "^13.13.2",
     "@types/uuid": "^7.0.3",
-    "uuid": "^7.0.3"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
